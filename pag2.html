@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Financiamentos</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h2>Financiamentos</h2>
+    </header>
+    <main>
+        <div class="container mt-5">
+            <form>
+              <div class="form-group">
+                <label for="name">Nome Completo</label>
+                <input type="text" class="form-control" id="name" placeholder="Digite seu nome">
+              </div>
+              <div class="form-group">
+                <label for="email">E-mail</label>
+                <input type="email" class="form-control" id="email" placeholder="Digite seu e-mail">
+              </div>
+              <div class="form-group">
+                <label for="loanAmount">Valor do Financiamento</label>
+                <input type="number" class="form-control" id="loanAmount" placeholder="Digite o valor do financiamento">
+              </div>
+              <div class="form-group">
+                <label for="loanTerm">Prazo de Pagamento (meses)</label>
+                <input type="number" class="form-control" id="loanTerm" placeholder="Digite o prazo de pagamento em meses">
+              </div>
+              <div class="form-group">
+                <label for="financingType">Tipo de Financiamento</label>
+                <select class="form-control" id="financingType">
+                  <option>Imobiliário</option>
+                  <option>Automóvel</option>
+                  <option>Estudantil</option>
+                  <option>Consignado</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="comments">Comentários Adicionais</label>
+                <textarea class="form-control" id="comments" rows="3" placeholder="Digite seus comentários"></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary">Enviar</button>
+            </form>
+          </div>
+    </main>
+</body>
+</html>
